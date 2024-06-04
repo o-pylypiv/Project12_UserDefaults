@@ -13,6 +13,8 @@
 		EB3367A22B9F3AFC005CBEDD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EB3367A12B9F3AFC005CBEDD /* Base */; };
 		EB3367A42B9F3AFE005CBEDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3367A32B9F3AFE005CBEDD /* Assets.xcassets */; };
 		EB3367A72B9F3AFE005CBEDD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EB3367A62B9F3AFE005CBEDD /* Base */; };
+		EB3367AF2B9F42EF005CBEDD /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3367AE2B9F42EF005CBEDD /* PersonCell.swift */; };
+		EB3367B12BA08497005CBEDD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3367B02BA08497005CBEDD /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EB3367A32B9F3AFE005CBEDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB3367A62B9F3AFE005CBEDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB3367A82B9F3AFE005CBEDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3367AE2B9F42EF005CBEDD /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		EB3367B02BA08497005CBEDD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				EB33679C2B9F3AFC005CBEDD /* SceneDelegate.swift */,
 				EB33679E2B9F3AFC005CBEDD /* ViewController.swift */,
 				EB3367A02B9F3AFC005CBEDD /* Main.storyboard */,
+				EB3367AE2B9F42EF005CBEDD /* PersonCell.swift */,
+				EB3367B02BA08497005CBEDD /* Person.swift */,
 				EB3367A32B9F3AFE005CBEDD /* Assets.xcassets */,
 				EB3367A52B9F3AFE005CBEDD /* LaunchScreen.storyboard */,
 				EB3367A82B9F3AFE005CBEDD /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB3367B12BA08497005CBEDD /* Person.swift in Sources */,
 				EB33679F2B9F3AFC005CBEDD /* ViewController.swift in Sources */,
 				EB33679B2B9F3AFC005CBEDD /* AppDelegate.swift in Sources */,
+				EB3367AF2B9F42EF005CBEDD /* PersonCell.swift in Sources */,
 				EB33679D2B9F3AFC005CBEDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF6UJT876G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Project10/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -304,8 +313,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Project10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswiftolha.Project10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,6 +332,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF6UJT876G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Project10/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -331,8 +345,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Project10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswiftolha.Project10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
